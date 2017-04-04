@@ -2,7 +2,7 @@
 
 I believe teams that have a strong culture and identity are, all  things equal, better teams.
 
-This presentation was created as an on-boarding introduction for new team members joining the `krazyglue team` in winter of 2016. I hope someone finds it useful.
+[This presentation](https://gamell.github.io/krazyglue-way/) was created as an on-boarding introduction for new team members joining the `krazyglue team` in winter of 2016. I hope someone finds it useful.
 
 Credit for the slides goes to Ervin Janusko, Jenny Millman, Joan Gamell (myself), Pratik Deshpande, Shruthi Srikantaiah, Tamas Beres, Vivian Chan, Yani Zhang, Zsolt Horvath
 
