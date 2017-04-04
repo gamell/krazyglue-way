@@ -5,7 +5,18 @@
     <!-- <meta name="viewport" content="width=1024" /> -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>the-krazyglue-way</title>
-    <style type="text/css">atom-text-editor,
+    <style type="text/css">
+    .badges {
+      position: absolute;
+      top:0;
+      left:0.5%;
+    }
+    .hint {
+      font-size: 1.3vmin;
+      background-color: #dfdfdf;
+      vertical-align: middle;
+    }
+    atom-text-editor,
 :host {
   background-color: white;
   color: #555;
@@ -902,7 +913,7 @@ body {
 .step h1 {
   text-align: left;
 }
-.badge{
+.badges{
   position: absolute;
   top: 0;
   left: 0;
@@ -910,9 +921,11 @@ body {
 </style>
 </head>
 <body>
-  <iframe src="https://ghbtns.com/github-btn.html?user=gamell&repo=krazyglue-way&type=star&count=true" frameborder="0" scrolling="0" width="80px" height="20px" class="badge"></iframe>
-  <iframe src="https://ghbtns.com/github-btn.html?user=gamell&repo=krazyglue-way&type=fork&count=true" frameborder="0" scrolling="0" width="170px" height="20px" class="badge"></iframe>
-
+  <div class="badges">
+    <iframe src="https://ghbtns.com/github-btn.html?user=gamell&repo=krazyglue-way&type=star&count=true" frameborder="0" scrolling="0" width="80px" height="20px" class="badge"></iframe>
+    <iframe src="https://ghbtns.com/github-btn.html?user=gamell&repo=krazyglue-way&type=fork&count=true" frameborder="0" scrolling="0" width="80px" height="20px" class="badge"></iframe>
+    <code class="hint">Use ← → keys to navigate</code>
+  </div>
     <div id="impress"><div class="step" data-x="0" data-y="1400"><!--markpress-opt
 
 {
